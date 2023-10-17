@@ -13,5 +13,6 @@ int main()
     
     cout << "factorial " << factValue << " = " << fact(factValue);
 
+    cout << "test github ecosystem";
     return 0;
 }
