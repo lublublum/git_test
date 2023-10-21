@@ -23,7 +23,9 @@ int main()
     cout << "Enter house's width ";
     cin >> width;
 
-    cout << "House's square = " << myHouse.getHouseSquare(lenght,width);
+    myHouse.setWidth(width);
+    myHouse.setLenght(lenght);
+    cout << "House's square = " << myHouse.getHouseSquare();
 
     return 0;
 }

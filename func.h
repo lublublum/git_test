@@ -41,13 +41,7 @@ public:
 
     float getHouseSquare ()
     {
-        return lenght*width;
-    }
-    float getHouseSquare (float lenght, float width)
-    {
-        setLenght(lenght);
-        setWidth(width);
-        return this->lenght * this->width;
+        return lenght * width;
     }
 };
 
