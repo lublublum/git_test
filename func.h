@@ -6,3 +6,48 @@ int fact(int factValue)
     return factValue * fact(factValue - 1);
 }
 
+class House
+{
+private:
+    float lenght;
+    float width;
+    
+public:
+    House(float lenght, float width)
+    {
+
+    }
+    House ()
+    {
+
+    }
+    void setLenght(float lenght)
+    {
+        this -> lenght = lenght;
+    }
+    float getLenght()
+    {
+        return lenght;
+    }
+    
+    void setWidth(float width)
+    {
+        this -> width = width;
+    }
+    float getWidth()
+    {
+        return width;
+    }
+
+    float getHouseSquare ()
+    {
+        return lenght*width;
+    }
+    float getHouseSquare (float lenght, float width)
+    {
+        setLenght(lenght);
+        setWidth(width);
+        return this->lenght * this->width;
+    }
+};
+
